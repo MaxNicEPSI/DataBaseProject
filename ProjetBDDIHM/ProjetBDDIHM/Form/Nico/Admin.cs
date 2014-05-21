@@ -64,7 +64,7 @@ namespace ProjetBDDIHM
 
         private void buttonAjouter_Click(object sender, EventArgs e)
         {
-            /*string constr = "Data Source=(DESCRIPTION="
+            string constr = "Data Source=(DESCRIPTION="
 + "(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=PC-Port-Nico)(PORT=1521)))"
 + "(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=XE)));"
 + "User Id=system;Password=password;";
@@ -84,7 +84,7 @@ namespace ProjetBDDIHM
             }
 
             int nbr = nbrLignedataGridClient();
-            System.Windows.Forms.MessageBox.Show(nbr.ToString());*/
+            System.Windows.Forms.MessageBox.Show(nbr.ToString());
         }
 
        
