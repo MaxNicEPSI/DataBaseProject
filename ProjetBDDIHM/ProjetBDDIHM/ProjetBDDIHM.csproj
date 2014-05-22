@@ -32,6 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=4.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.OracleClient" />
@@ -45,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Nico\Circuit.cs" />
+    <Compile Include="Classes\Nico\Client.cs" />
+    <Compile Include="Classes\Nico\Etape.cs" />
+    <Compile Include="Classes\Nico\LieuAVisiter.cs" />
+    <Compile Include="Classes\Nico\Reservation.cs" />
     <Compile Include="Form\Max\Connexion.cs">
       <SubType>Form</SubType>
     </Compile>

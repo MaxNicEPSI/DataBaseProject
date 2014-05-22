@@ -35,11 +35,11 @@
             this.labelId = new System.Windows.Forms.Label();
             this.labelCompte = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.buttonClient = new System.Windows.Forms.Button();
+            this.buttonCircuit = new System.Windows.Forms.Button();
             this.cLIENTBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.dataSet1 = new ProjetBDDIHM.DataSet1();
             this.cLIENTBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.buttonCircuit = new System.Windows.Forms.Button();
-            this.buttonClient = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.cLIENTTableAdapter = new ProjetBDDIHM.DataSet1TableAdapters.CLIENTTableAdapter();
             this.dataSet11 = new ProjetBDDIHM.DataSet1();
@@ -104,6 +104,34 @@
             this.panel2.Size = new System.Drawing.Size(1025, 466);
             this.panel2.TabIndex = 1;
             // 
+            // buttonClient
+            // 
+            this.buttonClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(126)))), ((int)(((byte)(0)))));
+            this.buttonClient.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonClient.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonClient.Location = new System.Drawing.Point(117, 203);
+            this.buttonClient.Name = "buttonClient";
+            this.buttonClient.Size = new System.Drawing.Size(204, 41);
+            this.buttonClient.TabIndex = 0;
+            this.buttonClient.Text = "Client/Réservation";
+            this.buttonClient.UseVisualStyleBackColor = false;
+            this.buttonClient.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // buttonCircuit
+            // 
+            this.buttonCircuit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(126)))), ((int)(((byte)(0)))));
+            this.buttonCircuit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonCircuit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCircuit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonCircuit.Location = new System.Drawing.Point(688, 203);
+            this.buttonCircuit.Name = "buttonCircuit";
+            this.buttonCircuit.Size = new System.Drawing.Size(219, 41);
+            this.buttonCircuit.TabIndex = 2;
+            this.buttonCircuit.Text = "Circuit/Étapes/Lieux";
+            this.buttonCircuit.UseVisualStyleBackColor = false;
+            this.buttonCircuit.Click += new System.EventHandler(this.buttonCircuit_Click);
+            // 
             // cLIENTBindingSource1
             // 
             this.cLIENTBindingSource1.DataMember = "CLIENT";
@@ -118,33 +146,6 @@
             // 
             this.cLIENTBindingSource.DataMember = "CLIENT";
             this.cLIENTBindingSource.DataSource = this.dataSet1;
-            // 
-            // buttonCircuit
-            // 
-            this.buttonCircuit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(126)))), ((int)(((byte)(0)))));
-            this.buttonCircuit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonCircuit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCircuit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonCircuit.Location = new System.Drawing.Point(688, 203);
-            this.buttonCircuit.Name = "buttonCircuit";
-            this.buttonCircuit.Size = new System.Drawing.Size(219, 41);
-            this.buttonCircuit.TabIndex = 2;
-            this.buttonCircuit.Text = "Circuit/Étapes/Lieux";
-            this.buttonCircuit.UseVisualStyleBackColor = false;
-            // 
-            // buttonClient
-            // 
-            this.buttonClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(126)))), ((int)(((byte)(0)))));
-            this.buttonClient.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonClient.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonClient.Location = new System.Drawing.Point(117, 203);
-            this.buttonClient.Name = "buttonClient";
-            this.buttonClient.Size = new System.Drawing.Size(204, 41);
-            this.buttonClient.TabIndex = 0;
-            this.buttonClient.Text = "Client/Réservation";
-            this.buttonClient.UseVisualStyleBackColor = false;
-            this.buttonClient.Click += new System.EventHandler(this.button1_Click);
             // 
             // openFileDialog1
             // 

@@ -25,8 +25,6 @@ namespace ProjetBDDIHM.Classes.Nico
             this.login = login;
             this.password = password;
             this.privilege = privilege;
-
-
         }
     }
 }

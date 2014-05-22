@@ -101,6 +101,7 @@
             this.cbCircuit.Name = "cbCircuit";
             this.cbCircuit.Size = new System.Drawing.Size(188, 21);
             this.cbCircuit.TabIndex = 0;
+            this.cbCircuit.SelectedIndexChanged += new System.EventHandler(this.cbCircuit_SelectedIndexChanged);
             // 
             // label3
             // 

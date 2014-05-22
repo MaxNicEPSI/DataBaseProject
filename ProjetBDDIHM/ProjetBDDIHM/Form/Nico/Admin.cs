@@ -13,6 +13,7 @@ namespace ProjetBDDIHM
 {
     public partial class Admin : Form
     {
+
         
         public Admin()
         {
@@ -64,7 +65,7 @@ namespace ProjetBDDIHM
 
         private void buttonAjouter_Click(object sender, EventArgs e)
         {
-            string constr = "Data Source=(DESCRIPTION="
+           /* string constr = "Data Source=(DESCRIPTION="
 + "(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=PC-Port-Nico)(PORT=1521)))"
 + "(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=XE)));"
 + "User Id=system;Password=password;";
@@ -83,8 +84,8 @@ namespace ProjetBDDIHM
                 MessageBox.Show(ee.Message);
             }
 
-            int nbr = nbrLignedataGridClient();
-            System.Windows.Forms.MessageBox.Show(nbr.ToString());
+           
+            System.Windows.Forms.MessageBox.Show(nbr.ToString());*/
         }
 
        
@@ -96,6 +97,22 @@ namespace ProjetBDDIHM
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonCircuit_Click(object sender, EventArgs e)
+        {
+
+           /* OracleCommandBuilder builder = new OracleCommandBuilder(adapter);
+            try
+            {
+                DataSet1 dataset = new DataSet1();
+                adapter.Fill(dataset, "PROJETBDDCIRCUIT.CLIENT");
+                DataTable table = dataset.Tables["PROJETBDDCIRCUIT.CIRCUIT"];
+            }
+            catch (Exception ee)
+            {
+                MessageBox.Show(ee.Message);
+            }*/
         }
 
         

@@ -33,5 +33,5 @@ namespace ProjetBDDIHM.Classes.Nico
             this.prixInscription = prixInscription;
         }
     }
-    }
+    
 }
