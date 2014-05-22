@@ -435,6 +435,7 @@
             this.AjouterCircuit.TabIndex = 4;
             this.AjouterCircuit.Text = "Ajouter";
             this.AjouterCircuit.UseVisualStyleBackColor = true;
+            this.AjouterCircuit.Click += new System.EventHandler(this.AjouterCircuit_Click);
             // 
             // SupprimerCircuit
             // 
@@ -453,6 +454,7 @@
             this.ModifierCircuit.TabIndex = 2;
             this.ModifierCircuit.Text = "Modifier";
             this.ModifierCircuit.UseVisualStyleBackColor = true;
+            this.ModifierCircuit.Click += new System.EventHandler(this.ModifierCircuit_Click);
             // 
             // CircuitComboBox
             // 
@@ -647,8 +649,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(984, 538);
             this.Controls.Add(this.groupBox1);
+            this.MinimumSize = new System.Drawing.Size(1000, 577);
             this.Name = "FenetreGestionCircuit";
             this.Text = "GestionCircuit";
             this.groupBox1.ResumeLayout(false);

@@ -87,16 +87,12 @@ namespace ProjetBDDIHM
             System.Windows.Forms.MessageBox.Show(nbr.ToString());*/
         }
 
-       
-        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+
+        private void buttonCircuit_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
 
         
     }

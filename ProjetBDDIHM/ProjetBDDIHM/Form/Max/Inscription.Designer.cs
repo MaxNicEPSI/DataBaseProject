@@ -108,6 +108,7 @@
             this.BoutonInscription.TabIndex = 6;
             this.BoutonInscription.Text = "S\'incrire ";
             this.BoutonInscription.UseVisualStyleBackColor = false;
+            this.BoutonInscription.Click += new System.EventHandler(this.BoutonInscription_Click);
             // 
             // LabelInscription
             // 

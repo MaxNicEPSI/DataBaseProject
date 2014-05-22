@@ -86,6 +86,7 @@
             this.BoutonInscription.TabIndex = 6;
             this.BoutonInscription.Text = "S\'incrire !?";
             this.BoutonInscription.UseVisualStyleBackColor = false;
+            this.BoutonInscription.Click += new System.EventHandler(this.BoutonInscription_Click_1);
             // 
             // IdentifiantConnexion
             // 
@@ -104,7 +105,7 @@
             this.BoutonConnecter.TabIndex = 4;
             this.BoutonConnecter.Text = "Se connecter";
             this.BoutonConnecter.UseVisualStyleBackColor = false;
-            this.BoutonConnecter.Click += new System.EventHandler(this.BoutonConnecter_Click);
+            this.BoutonConnecter.Click += new System.EventHandler(this.BoutonConnecter_Click_1);
             // 
             // label1
             // 

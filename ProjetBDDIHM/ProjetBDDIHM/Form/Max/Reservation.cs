@@ -21,5 +21,10 @@ namespace ProjetBDDIHM
         {
 
         }
+
+        private void CircuitComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

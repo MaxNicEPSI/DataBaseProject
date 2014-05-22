@@ -12,8 +12,20 @@ namespace ProjetBDDIHM
 {
     public partial class FenetreGestionCircuit : Form
     {
+        public FenetreGestionCircuit()
+        {
+            InitializeComponent();
+        }
 
+        private void AjouterCircuit_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void ModifierCircuit_Click(object sender, EventArgs e)
+        {
+
+        }
 
     }
 }

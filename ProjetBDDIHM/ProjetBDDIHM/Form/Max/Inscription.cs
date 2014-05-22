@@ -17,6 +17,11 @@ namespace ProjetBDDIHM
             InitializeComponent();
         }
 
+        private void BoutonInscription_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
     }
 }
