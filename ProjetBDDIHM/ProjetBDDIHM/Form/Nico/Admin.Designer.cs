@@ -130,7 +130,6 @@
             this.buttonCircuit.TabIndex = 2;
             this.buttonCircuit.Text = "Circuit/Étapes/Lieux";
             this.buttonCircuit.UseVisualStyleBackColor = false;
-            this.buttonCircuit.Click += new System.EventHandler(this.buttonCircuit_Click);
             // 
             // cLIENTBindingSource1
             // 

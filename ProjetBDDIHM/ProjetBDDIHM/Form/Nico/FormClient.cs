@@ -17,6 +17,20 @@ namespace ProjetBDDIHM
         public FormClient()
         {
             InitializeComponent();
+            DataBase data = new DataBase();
+            data.RequestData("SELECT DATEDEPART FROM CIRCUIT");
+                while (data.dr.Read())
+                {
+                    try
+                    {
+                        cbCircuit.Items.Add(data.dr.GetValue(0));
+                    }
+                    catch (Exception ee)
+                    {
+                        MessageBox.Show(ee.Message);
+                    }
+                }
+
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -182,6 +196,11 @@ namespace ProjetBDDIHM
         }
 
         private void groupBox5_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbCircuit_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

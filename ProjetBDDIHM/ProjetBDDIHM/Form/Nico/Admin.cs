@@ -13,6 +13,7 @@ namespace ProjetBDDIHM
 {
     public partial class Admin : Form
     {
+
         
         public Admin()
         {
@@ -52,46 +53,6 @@ namespace ProjetBDDIHM
 
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void buttonAjouter_Click(object sender, EventArgs e)
-        {
-            /*string constr = "Data Source=(DESCRIPTION="
-+ "(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=PC-Port-Nico)(PORT=1521)))"
-+ "(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=XE)));"
-+ "User Id=system;Password=password;";
-
-            string cmdstr = "INSERT Into * from PROJETBDDCIRCUIT.CIRCUIT";
-            OracleDataAdapter adapter = new OracleDataAdapter(cmdstr, constr);
-            OracleCommandBuilder builder = new OracleCommandBuilder(adapter);
-            try
-            {
-                DataSet1 dataset = new DataSet1();
-                adapter.Fill(dataset, "PROJETBDDCIRCUIT.CLIENT");
-                DataTable table = dataset.Tables["PROJETBDDCIRCUIT.CIRCUIT"];
-            }
-            catch (Exception ee)
-            {
-                MessageBox.Show(ee.Message);
-            }
-
-            int nbr = nbrLignedataGridClient();
-            System.Windows.Forms.MessageBox.Show(nbr.ToString());*/
-        }
-
-
-        private void buttonCircuit_Click(object sender, EventArgs e)
-        {
-
-        }
 
 
         

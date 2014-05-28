@@ -30,18 +30,18 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.LieuVisiterTextBox = new System.Windows.Forms.TextBox();
+            this.LieuVisiter = new System.Windows.Forms.TextBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.DescriptifLieuVisiter = new System.Windows.Forms.TextBox();
-            this.PrixLieuVisiter = new System.Windows.Forms.TextBox();
-            this.PaysLieuVisiter = new System.Windows.Forms.TextBox();
-            this.VilleLieuVisiter = new System.Windows.Forms.TextBox();
-            this.NomLieuVisiter = new System.Windows.Forms.TextBox();
+            this.DescriptifLieuVisiterTextBox = new System.Windows.Forms.TextBox();
+            this.PrixLieuVisiterTextBox = new System.Windows.Forms.TextBox();
+            this.PaysLieuVisiterTextBox = new System.Windows.Forms.TextBox();
+            this.VilleLieuVisiterTextBox = new System.Windows.Forms.TextBox();
+            this.NomLieuVisiterTextBox = new System.Windows.Forms.TextBox();
             this.SupprimerLieuVisiter = new System.Windows.Forms.Button();
             this.ModifierLieuVisiter = new System.Windows.Forms.Button();
             this.AjouterLieuVisiter = new System.Windows.Forms.Button();
@@ -51,31 +51,33 @@
             this.AjouterEtape = new System.Windows.Forms.Button();
             this.EtapeComboBox = new System.Windows.Forms.ComboBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.OrdreEtapeTextBox = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.DureeEtape = new System.Windows.Forms.TextBox();
-            this.DateEtape = new System.Windows.Forms.TextBox();
-            this.PaysEtape = new System.Windows.Forms.TextBox();
-            this.VilleEtape = new System.Windows.Forms.TextBox();
-            this.NomLieuEtape = new System.Windows.Forms.TextBox();
+            this.DureeEtapeTextBox = new System.Windows.Forms.TextBox();
+            this.DateEtapeTextBox = new System.Windows.Forms.TextBox();
+            this.PaysEtapeTextBox = new System.Windows.Forms.TextBox();
+            this.VilleEtapeTextBox = new System.Windows.Forms.TextBox();
+            this.NomLieuEtapeTextBox = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.AjouterCircuit = new System.Windows.Forms.Button();
             this.SupprimerCircuit = new System.Windows.Forms.Button();
             this.ModifierCircuit = new System.Windows.Forms.Button();
             this.CircuitComboBox = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.DescriptifCircuit = new System.Windows.Forms.TextBox();
-            this.PrixInscriptionCircuit = new System.Windows.Forms.TextBox();
-            this.DureeCircuit = new System.Windows.Forms.TextBox();
-            this.PlacesDisponiblesCircuit = new System.Windows.Forms.TextBox();
-            this.DateDepartCircuit = new System.Windows.Forms.TextBox();
-            this.PaysArriveeCircuit = new System.Windows.Forms.TextBox();
-            this.VilleArriveeCircuit = new System.Windows.Forms.TextBox();
-            this.PaysDepartCircuit = new System.Windows.Forms.TextBox();
-            this.VilleDepartCircuit = new System.Windows.Forms.TextBox();
+            this.DescriptifCircuitTextBox = new System.Windows.Forms.TextBox();
+            this.PrixInscriptionCircuitTextBox = new System.Windows.Forms.TextBox();
+            this.DureeCircuitTextBox = new System.Windows.Forms.TextBox();
+            this.PlacesDisponiblesCircuitTextBox = new System.Windows.Forms.TextBox();
+            this.DateDepartCircuitTextBox = new System.Windows.Forms.TextBox();
+            this.PaysArriveeCircuitTextBox = new System.Windows.Forms.TextBox();
+            this.VilleArriveeCircuitTextBox = new System.Windows.Forms.TextBox();
+            this.PaysDepartCircuitTextBox = new System.Windows.Forms.TextBox();
+            this.VilleDepartCircuitTextBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -108,7 +110,7 @@
             // 
             // groupBox6
             // 
-            this.groupBox6.Controls.Add(this.LieuVisiterTextBox);
+            this.groupBox6.Controls.Add(this.LieuVisiter);
             this.groupBox6.Controls.Add(this.groupBox7);
             this.groupBox6.Controls.Add(this.SupprimerLieuVisiter);
             this.groupBox6.Controls.Add(this.ModifierLieuVisiter);
@@ -120,13 +122,13 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Lieu à visiter";
             // 
-            // LieuVisiterTextBox
+            // LieuVisiter
             // 
-            this.LieuVisiterTextBox.Location = new System.Drawing.Point(7, 19);
-            this.LieuVisiterTextBox.Name = "LieuVisiterTextBox";
-            this.LieuVisiterTextBox.ReadOnly = true;
-            this.LieuVisiterTextBox.Size = new System.Drawing.Size(186, 20);
-            this.LieuVisiterTextBox.TabIndex = 10;
+            this.LieuVisiter.Location = new System.Drawing.Point(7, 19);
+            this.LieuVisiter.Name = "LieuVisiter";
+            this.LieuVisiter.ReadOnly = true;
+            this.LieuVisiter.Size = new System.Drawing.Size(186, 20);
+            this.LieuVisiter.TabIndex = 10;
             // 
             // groupBox7
             // 
@@ -135,11 +137,11 @@
             this.groupBox7.Controls.Add(this.label17);
             this.groupBox7.Controls.Add(this.label18);
             this.groupBox7.Controls.Add(this.label19);
-            this.groupBox7.Controls.Add(this.DescriptifLieuVisiter);
-            this.groupBox7.Controls.Add(this.PrixLieuVisiter);
-            this.groupBox7.Controls.Add(this.PaysLieuVisiter);
-            this.groupBox7.Controls.Add(this.VilleLieuVisiter);
-            this.groupBox7.Controls.Add(this.NomLieuVisiter);
+            this.groupBox7.Controls.Add(this.DescriptifLieuVisiterTextBox);
+            this.groupBox7.Controls.Add(this.PrixLieuVisiterTextBox);
+            this.groupBox7.Controls.Add(this.PaysLieuVisiterTextBox);
+            this.groupBox7.Controls.Add(this.VilleLieuVisiterTextBox);
+            this.groupBox7.Controls.Add(this.NomLieuVisiterTextBox);
             this.groupBox7.Location = new System.Drawing.Point(6, 75);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(276, 297);
@@ -168,7 +170,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(10, 82);
+            this.label17.Location = new System.Drawing.Point(10, 83);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(36, 13);
             this.label17.TabIndex = 27;
@@ -192,46 +194,46 @@
             this.label19.TabIndex = 25;
             this.label19.Text = "Nom du lieu :";
             // 
-            // DescriptifLieuVisiter
+            // DescriptifLieuVisiterTextBox
             // 
-            this.DescriptifLieuVisiter.Location = new System.Drawing.Point(13, 167);
-            this.DescriptifLieuVisiter.Multiline = true;
-            this.DescriptifLieuVisiter.Name = "DescriptifLieuVisiter";
-            this.DescriptifLieuVisiter.ReadOnly = true;
-            this.DescriptifLieuVisiter.Size = new System.Drawing.Size(282, 107);
-            this.DescriptifLieuVisiter.TabIndex = 24;
+            this.DescriptifLieuVisiterTextBox.Location = new System.Drawing.Point(13, 167);
+            this.DescriptifLieuVisiterTextBox.Multiline = true;
+            this.DescriptifLieuVisiterTextBox.Name = "DescriptifLieuVisiterTextBox";
+            this.DescriptifLieuVisiterTextBox.ReadOnly = true;
+            this.DescriptifLieuVisiterTextBox.Size = new System.Drawing.Size(282, 107);
+            this.DescriptifLieuVisiterTextBox.TabIndex = 24;
             // 
-            // PrixLieuVisiter
+            // PrixLieuVisiterTextBox
             // 
-            this.PrixLieuVisiter.Location = new System.Drawing.Point(80, 102);
-            this.PrixLieuVisiter.Name = "PrixLieuVisiter";
-            this.PrixLieuVisiter.ReadOnly = true;
-            this.PrixLieuVisiter.Size = new System.Drawing.Size(186, 20);
-            this.PrixLieuVisiter.TabIndex = 23;
+            this.PrixLieuVisiterTextBox.Location = new System.Drawing.Point(80, 102);
+            this.PrixLieuVisiterTextBox.Name = "PrixLieuVisiterTextBox";
+            this.PrixLieuVisiterTextBox.ReadOnly = true;
+            this.PrixLieuVisiterTextBox.Size = new System.Drawing.Size(186, 20);
+            this.PrixLieuVisiterTextBox.TabIndex = 23;
             // 
-            // PaysLieuVisiter
+            // PaysLieuVisiterTextBox
             // 
-            this.PaysLieuVisiter.Location = new System.Drawing.Point(80, 75);
-            this.PaysLieuVisiter.Name = "PaysLieuVisiter";
-            this.PaysLieuVisiter.ReadOnly = true;
-            this.PaysLieuVisiter.Size = new System.Drawing.Size(186, 20);
-            this.PaysLieuVisiter.TabIndex = 22;
+            this.PaysLieuVisiterTextBox.Location = new System.Drawing.Point(80, 75);
+            this.PaysLieuVisiterTextBox.Name = "PaysLieuVisiterTextBox";
+            this.PaysLieuVisiterTextBox.ReadOnly = true;
+            this.PaysLieuVisiterTextBox.Size = new System.Drawing.Size(186, 20);
+            this.PaysLieuVisiterTextBox.TabIndex = 22;
             // 
-            // VilleLieuVisiter
+            // VilleLieuVisiterTextBox
             // 
-            this.VilleLieuVisiter.Location = new System.Drawing.Point(80, 48);
-            this.VilleLieuVisiter.Name = "VilleLieuVisiter";
-            this.VilleLieuVisiter.ReadOnly = true;
-            this.VilleLieuVisiter.Size = new System.Drawing.Size(186, 20);
-            this.VilleLieuVisiter.TabIndex = 21;
+            this.VilleLieuVisiterTextBox.Location = new System.Drawing.Point(80, 48);
+            this.VilleLieuVisiterTextBox.Name = "VilleLieuVisiterTextBox";
+            this.VilleLieuVisiterTextBox.ReadOnly = true;
+            this.VilleLieuVisiterTextBox.Size = new System.Drawing.Size(186, 20);
+            this.VilleLieuVisiterTextBox.TabIndex = 21;
             // 
-            // NomLieuVisiter
+            // NomLieuVisiterTextBox
             // 
-            this.NomLieuVisiter.Location = new System.Drawing.Point(80, 21);
-            this.NomLieuVisiter.Name = "NomLieuVisiter";
-            this.NomLieuVisiter.ReadOnly = true;
-            this.NomLieuVisiter.Size = new System.Drawing.Size(186, 20);
-            this.NomLieuVisiter.TabIndex = 20;
+            this.NomLieuVisiterTextBox.Location = new System.Drawing.Point(80, 21);
+            this.NomLieuVisiterTextBox.Name = "NomLieuVisiterTextBox";
+            this.NomLieuVisiterTextBox.ReadOnly = true;
+            this.NomLieuVisiterTextBox.Size = new System.Drawing.Size(186, 20);
+            this.NomLieuVisiterTextBox.TabIndex = 20;
             // 
             // SupprimerLieuVisiter
             // 
@@ -308,19 +310,22 @@
             this.EtapeComboBox.Name = "EtapeComboBox";
             this.EtapeComboBox.Size = new System.Drawing.Size(187, 21);
             this.EtapeComboBox.TabIndex = 0;
+            this.EtapeComboBox.SelectedIndexChanged += new System.EventHandler(this.EtapeComboBox_SelectedIndexChanged);
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.label20);
+            this.groupBox5.Controls.Add(this.OrdreEtapeTextBox);
             this.groupBox5.Controls.Add(this.label14);
             this.groupBox5.Controls.Add(this.label13);
             this.groupBox5.Controls.Add(this.label12);
             this.groupBox5.Controls.Add(this.label11);
             this.groupBox5.Controls.Add(this.label10);
-            this.groupBox5.Controls.Add(this.DureeEtape);
-            this.groupBox5.Controls.Add(this.DateEtape);
-            this.groupBox5.Controls.Add(this.PaysEtape);
-            this.groupBox5.Controls.Add(this.VilleEtape);
-            this.groupBox5.Controls.Add(this.NomLieuEtape);
+            this.groupBox5.Controls.Add(this.DureeEtapeTextBox);
+            this.groupBox5.Controls.Add(this.DateEtapeTextBox);
+            this.groupBox5.Controls.Add(this.PaysEtapeTextBox);
+            this.groupBox5.Controls.Add(this.VilleEtapeTextBox);
+            this.groupBox5.Controls.Add(this.NomLieuEtapeTextBox);
             this.groupBox5.Location = new System.Drawing.Point(7, 74);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(276, 193);
@@ -328,10 +333,27 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "detail de l\'étape";
             // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(6, 25);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(77, 13);
+            this.label20.TabIndex = 11;
+            this.label20.Text = "N° de l\'étape : ";
+            // 
+            // OrdreEtapeTextBox
+            // 
+            this.OrdreEtapeTextBox.Location = new System.Drawing.Point(84, 19);
+            this.OrdreEtapeTextBox.Name = "OrdreEtapeTextBox";
+            this.OrdreEtapeTextBox.ReadOnly = true;
+            this.OrdreEtapeTextBox.Size = new System.Drawing.Size(186, 20);
+            this.OrdreEtapeTextBox.TabIndex = 10;
+            // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(10, 159);
+            this.label14.Location = new System.Drawing.Point(6, 160);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(42, 13);
             this.label14.TabIndex = 9;
@@ -340,7 +362,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(10, 134);
+            this.label13.Location = new System.Drawing.Point(6, 133);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(36, 13);
             this.label13.TabIndex = 8;
@@ -349,7 +371,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(10, 106);
+            this.label12.Location = new System.Drawing.Point(6, 106);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(36, 13);
             this.label12.TabIndex = 7;
@@ -358,7 +380,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(10, 79);
+            this.label11.Location = new System.Drawing.Point(6, 79);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(32, 13);
             this.label11.TabIndex = 6;
@@ -367,51 +389,51 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(10, 51);
+            this.label10.Location = new System.Drawing.Point(6, 49);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(69, 13);
             this.label10.TabIndex = 5;
             this.label10.Text = "Nom du lieu :";
             // 
-            // DureeEtape
+            // DureeEtapeTextBox
             // 
-            this.DureeEtape.Location = new System.Drawing.Point(80, 153);
-            this.DureeEtape.Name = "DureeEtape";
-            this.DureeEtape.ReadOnly = true;
-            this.DureeEtape.Size = new System.Drawing.Size(186, 20);
-            this.DureeEtape.TabIndex = 4;
+            this.DureeEtapeTextBox.Location = new System.Drawing.Point(84, 152);
+            this.DureeEtapeTextBox.Name = "DureeEtapeTextBox";
+            this.DureeEtapeTextBox.ReadOnly = true;
+            this.DureeEtapeTextBox.Size = new System.Drawing.Size(186, 20);
+            this.DureeEtapeTextBox.TabIndex = 4;
             // 
-            // DateEtape
+            // DateEtapeTextBox
             // 
-            this.DateEtape.Location = new System.Drawing.Point(80, 126);
-            this.DateEtape.Name = "DateEtape";
-            this.DateEtape.ReadOnly = true;
-            this.DateEtape.Size = new System.Drawing.Size(186, 20);
-            this.DateEtape.TabIndex = 3;
+            this.DateEtapeTextBox.Location = new System.Drawing.Point(84, 126);
+            this.DateEtapeTextBox.Name = "DateEtapeTextBox";
+            this.DateEtapeTextBox.ReadOnly = true;
+            this.DateEtapeTextBox.Size = new System.Drawing.Size(186, 20);
+            this.DateEtapeTextBox.TabIndex = 3;
             // 
-            // PaysEtape
+            // PaysEtapeTextBox
             // 
-            this.PaysEtape.Location = new System.Drawing.Point(80, 99);
-            this.PaysEtape.Name = "PaysEtape";
-            this.PaysEtape.ReadOnly = true;
-            this.PaysEtape.Size = new System.Drawing.Size(186, 20);
-            this.PaysEtape.TabIndex = 2;
+            this.PaysEtapeTextBox.Location = new System.Drawing.Point(84, 100);
+            this.PaysEtapeTextBox.Name = "PaysEtapeTextBox";
+            this.PaysEtapeTextBox.ReadOnly = true;
+            this.PaysEtapeTextBox.Size = new System.Drawing.Size(186, 20);
+            this.PaysEtapeTextBox.TabIndex = 2;
             // 
-            // VilleEtape
+            // VilleEtapeTextBox
             // 
-            this.VilleEtape.Location = new System.Drawing.Point(80, 72);
-            this.VilleEtape.Name = "VilleEtape";
-            this.VilleEtape.ReadOnly = true;
-            this.VilleEtape.Size = new System.Drawing.Size(186, 20);
-            this.VilleEtape.TabIndex = 1;
+            this.VilleEtapeTextBox.Location = new System.Drawing.Point(84, 70);
+            this.VilleEtapeTextBox.Name = "VilleEtapeTextBox";
+            this.VilleEtapeTextBox.ReadOnly = true;
+            this.VilleEtapeTextBox.Size = new System.Drawing.Size(186, 20);
+            this.VilleEtapeTextBox.TabIndex = 1;
             // 
-            // NomLieuEtape
+            // NomLieuEtapeTextBox
             // 
-            this.NomLieuEtape.Location = new System.Drawing.Point(80, 45);
-            this.NomLieuEtape.Name = "NomLieuEtape";
-            this.NomLieuEtape.ReadOnly = true;
-            this.NomLieuEtape.Size = new System.Drawing.Size(186, 20);
-            this.NomLieuEtape.TabIndex = 0;
+            this.NomLieuEtapeTextBox.Location = new System.Drawing.Point(84, 44);
+            this.NomLieuEtapeTextBox.Name = "NomLieuEtapeTextBox";
+            this.NomLieuEtapeTextBox.ReadOnly = true;
+            this.NomLieuEtapeTextBox.Size = new System.Drawing.Size(186, 20);
+            this.NomLieuEtapeTextBox.TabIndex = 0;
             // 
             // groupBox2
             // 
@@ -435,7 +457,6 @@
             this.AjouterCircuit.TabIndex = 4;
             this.AjouterCircuit.Text = "Ajouter";
             this.AjouterCircuit.UseVisualStyleBackColor = true;
-            this.AjouterCircuit.Click += new System.EventHandler(this.AjouterCircuit_Click);
             // 
             // SupprimerCircuit
             // 
@@ -454,7 +475,6 @@
             this.ModifierCircuit.TabIndex = 2;
             this.ModifierCircuit.Text = "Modifier";
             this.ModifierCircuit.UseVisualStyleBackColor = true;
-            this.ModifierCircuit.Click += new System.EventHandler(this.ModifierCircuit_Click);
             // 
             // CircuitComboBox
             // 
@@ -463,18 +483,19 @@
             this.CircuitComboBox.Name = "CircuitComboBox";
             this.CircuitComboBox.Size = new System.Drawing.Size(188, 21);
             this.CircuitComboBox.TabIndex = 0;
+            this.CircuitComboBox.SelectedIndexChanged += new System.EventHandler(this.CircuitComboBox_SelectedIndexChanged);
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.DescriptifCircuit);
-            this.groupBox3.Controls.Add(this.PrixInscriptionCircuit);
-            this.groupBox3.Controls.Add(this.DureeCircuit);
-            this.groupBox3.Controls.Add(this.PlacesDisponiblesCircuit);
-            this.groupBox3.Controls.Add(this.DateDepartCircuit);
-            this.groupBox3.Controls.Add(this.PaysArriveeCircuit);
-            this.groupBox3.Controls.Add(this.VilleArriveeCircuit);
-            this.groupBox3.Controls.Add(this.PaysDepartCircuit);
-            this.groupBox3.Controls.Add(this.VilleDepartCircuit);
+            this.groupBox3.Controls.Add(this.DescriptifCircuitTextBox);
+            this.groupBox3.Controls.Add(this.PrixInscriptionCircuitTextBox);
+            this.groupBox3.Controls.Add(this.DureeCircuitTextBox);
+            this.groupBox3.Controls.Add(this.PlacesDisponiblesCircuitTextBox);
+            this.groupBox3.Controls.Add(this.DateDepartCircuitTextBox);
+            this.groupBox3.Controls.Add(this.PaysArriveeCircuitTextBox);
+            this.groupBox3.Controls.Add(this.VilleArriveeCircuitTextBox);
+            this.groupBox3.Controls.Add(this.PaysDepartCircuitTextBox);
+            this.groupBox3.Controls.Add(this.VilleDepartCircuitTextBox);
             this.groupBox3.Controls.Add(this.label9);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.label6);
@@ -491,78 +512,78 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "détail circuit";
             // 
-            // DescriptifCircuit
+            // DescriptifCircuitTextBox
             // 
-            this.DescriptifCircuit.Location = new System.Drawing.Point(9, 280);
-            this.DescriptifCircuit.Multiline = true;
-            this.DescriptifCircuit.Name = "DescriptifCircuit";
-            this.DescriptifCircuit.ReadOnly = true;
-            this.DescriptifCircuit.Size = new System.Drawing.Size(257, 93);
-            this.DescriptifCircuit.TabIndex = 17;
+            this.DescriptifCircuitTextBox.Location = new System.Drawing.Point(9, 280);
+            this.DescriptifCircuitTextBox.Multiline = true;
+            this.DescriptifCircuitTextBox.Name = "DescriptifCircuitTextBox";
+            this.DescriptifCircuitTextBox.ReadOnly = true;
+            this.DescriptifCircuitTextBox.Size = new System.Drawing.Size(257, 93);
+            this.DescriptifCircuitTextBox.TabIndex = 17;
             // 
-            // PrixInscriptionCircuit
+            // PrixInscriptionCircuitTextBox
             // 
-            this.PrixInscriptionCircuit.Location = new System.Drawing.Point(84, 227);
-            this.PrixInscriptionCircuit.Name = "PrixInscriptionCircuit";
-            this.PrixInscriptionCircuit.ReadOnly = true;
-            this.PrixInscriptionCircuit.Size = new System.Drawing.Size(182, 20);
-            this.PrixInscriptionCircuit.TabIndex = 16;
+            this.PrixInscriptionCircuitTextBox.Location = new System.Drawing.Point(88, 227);
+            this.PrixInscriptionCircuitTextBox.Name = "PrixInscriptionCircuitTextBox";
+            this.PrixInscriptionCircuitTextBox.ReadOnly = true;
+            this.PrixInscriptionCircuitTextBox.Size = new System.Drawing.Size(182, 20);
+            this.PrixInscriptionCircuitTextBox.TabIndex = 16;
             // 
-            // DureeCircuit
+            // DureeCircuitTextBox
             // 
-            this.DureeCircuit.Location = new System.Drawing.Point(84, 195);
-            this.DureeCircuit.Name = "DureeCircuit";
-            this.DureeCircuit.ReadOnly = true;
-            this.DureeCircuit.Size = new System.Drawing.Size(182, 20);
-            this.DureeCircuit.TabIndex = 15;
+            this.DureeCircuitTextBox.Location = new System.Drawing.Point(88, 195);
+            this.DureeCircuitTextBox.Name = "DureeCircuitTextBox";
+            this.DureeCircuitTextBox.ReadOnly = true;
+            this.DureeCircuitTextBox.Size = new System.Drawing.Size(182, 20);
+            this.DureeCircuitTextBox.TabIndex = 15;
             // 
-            // PlacesDisponiblesCircuit
+            // PlacesDisponiblesCircuitTextBox
             // 
-            this.PlacesDisponiblesCircuit.Location = new System.Drawing.Point(84, 165);
-            this.PlacesDisponiblesCircuit.Name = "PlacesDisponiblesCircuit";
-            this.PlacesDisponiblesCircuit.ReadOnly = true;
-            this.PlacesDisponiblesCircuit.Size = new System.Drawing.Size(182, 20);
-            this.PlacesDisponiblesCircuit.TabIndex = 14;
+            this.PlacesDisponiblesCircuitTextBox.Location = new System.Drawing.Point(88, 164);
+            this.PlacesDisponiblesCircuitTextBox.Name = "PlacesDisponiblesCircuitTextBox";
+            this.PlacesDisponiblesCircuitTextBox.ReadOnly = true;
+            this.PlacesDisponiblesCircuitTextBox.Size = new System.Drawing.Size(182, 20);
+            this.PlacesDisponiblesCircuitTextBox.TabIndex = 14;
             // 
-            // DateDepartCircuit
+            // DateDepartCircuitTextBox
             // 
-            this.DateDepartCircuit.Location = new System.Drawing.Point(85, 135);
-            this.DateDepartCircuit.Name = "DateDepartCircuit";
-            this.DateDepartCircuit.ReadOnly = true;
-            this.DateDepartCircuit.Size = new System.Drawing.Size(181, 20);
-            this.DateDepartCircuit.TabIndex = 13;
+            this.DateDepartCircuitTextBox.Location = new System.Drawing.Point(88, 134);
+            this.DateDepartCircuitTextBox.Name = "DateDepartCircuitTextBox";
+            this.DateDepartCircuitTextBox.ReadOnly = true;
+            this.DateDepartCircuitTextBox.Size = new System.Drawing.Size(181, 20);
+            this.DateDepartCircuitTextBox.TabIndex = 13;
             // 
-            // PaysArriveeCircuit
+            // PaysArriveeCircuitTextBox
             // 
-            this.PaysArriveeCircuit.Location = new System.Drawing.Point(85, 107);
-            this.PaysArriveeCircuit.Name = "PaysArriveeCircuit";
-            this.PaysArriveeCircuit.ReadOnly = true;
-            this.PaysArriveeCircuit.Size = new System.Drawing.Size(181, 20);
-            this.PaysArriveeCircuit.TabIndex = 12;
+            this.PaysArriveeCircuitTextBox.Location = new System.Drawing.Point(88, 107);
+            this.PaysArriveeCircuitTextBox.Name = "PaysArriveeCircuitTextBox";
+            this.PaysArriveeCircuitTextBox.ReadOnly = true;
+            this.PaysArriveeCircuitTextBox.Size = new System.Drawing.Size(181, 20);
+            this.PaysArriveeCircuitTextBox.TabIndex = 12;
             // 
-            // VilleArriveeCircuit
+            // VilleArriveeCircuitTextBox
             // 
-            this.VilleArriveeCircuit.Location = new System.Drawing.Point(85, 77);
-            this.VilleArriveeCircuit.Name = "VilleArriveeCircuit";
-            this.VilleArriveeCircuit.ReadOnly = true;
-            this.VilleArriveeCircuit.Size = new System.Drawing.Size(181, 20);
-            this.VilleArriveeCircuit.TabIndex = 11;
+            this.VilleArriveeCircuitTextBox.Location = new System.Drawing.Point(88, 77);
+            this.VilleArriveeCircuitTextBox.Name = "VilleArriveeCircuitTextBox";
+            this.VilleArriveeCircuitTextBox.ReadOnly = true;
+            this.VilleArriveeCircuitTextBox.Size = new System.Drawing.Size(181, 20);
+            this.VilleArriveeCircuitTextBox.TabIndex = 11;
             // 
-            // PaysDepartCircuit
+            // PaysDepartCircuitTextBox
             // 
-            this.PaysDepartCircuit.Location = new System.Drawing.Point(85, 51);
-            this.PaysDepartCircuit.Name = "PaysDepartCircuit";
-            this.PaysDepartCircuit.ReadOnly = true;
-            this.PaysDepartCircuit.Size = new System.Drawing.Size(181, 20);
-            this.PaysDepartCircuit.TabIndex = 10;
+            this.PaysDepartCircuitTextBox.Location = new System.Drawing.Point(88, 50);
+            this.PaysDepartCircuitTextBox.Name = "PaysDepartCircuitTextBox";
+            this.PaysDepartCircuitTextBox.ReadOnly = true;
+            this.PaysDepartCircuitTextBox.Size = new System.Drawing.Size(181, 20);
+            this.PaysDepartCircuitTextBox.TabIndex = 10;
             // 
-            // VilleDepartCircuit
+            // VilleDepartCircuitTextBox
             // 
-            this.VilleDepartCircuit.Location = new System.Drawing.Point(85, 26);
-            this.VilleDepartCircuit.Name = "VilleDepartCircuit";
-            this.VilleDepartCircuit.ReadOnly = true;
-            this.VilleDepartCircuit.Size = new System.Drawing.Size(181, 20);
-            this.VilleDepartCircuit.TabIndex = 9;
+            this.VilleDepartCircuitTextBox.Location = new System.Drawing.Point(88, 26);
+            this.VilleDepartCircuitTextBox.Name = "VilleDepartCircuitTextBox";
+            this.VilleDepartCircuitTextBox.ReadOnly = true;
+            this.VilleDepartCircuitTextBox.Size = new System.Drawing.Size(181, 20);
+            this.VilleDepartCircuitTextBox.TabIndex = 9;
             // 
             // label9
             // 
@@ -680,23 +701,23 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox DureeEtape;
-        private System.Windows.Forms.TextBox DateEtape;
-        private System.Windows.Forms.TextBox PaysEtape;
-        private System.Windows.Forms.TextBox VilleEtape;
-        private System.Windows.Forms.TextBox NomLieuEtape;
+        private System.Windows.Forms.TextBox DureeEtapeTextBox;
+        private System.Windows.Forms.TextBox DateEtapeTextBox;
+        private System.Windows.Forms.TextBox PaysEtapeTextBox;
+        private System.Windows.Forms.TextBox VilleEtapeTextBox;
+        private System.Windows.Forms.TextBox NomLieuEtapeTextBox;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.ComboBox EtapeComboBox;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox DescriptifCircuit;
-        private System.Windows.Forms.TextBox PrixInscriptionCircuit;
-        private System.Windows.Forms.TextBox DureeCircuit;
-        private System.Windows.Forms.TextBox PlacesDisponiblesCircuit;
-        private System.Windows.Forms.TextBox DateDepartCircuit;
-        private System.Windows.Forms.TextBox PaysArriveeCircuit;
-        private System.Windows.Forms.TextBox VilleArriveeCircuit;
-        private System.Windows.Forms.TextBox PaysDepartCircuit;
-        private System.Windows.Forms.TextBox VilleDepartCircuit;
+        private System.Windows.Forms.TextBox DescriptifCircuitTextBox;
+        private System.Windows.Forms.TextBox PrixInscriptionCircuitTextBox;
+        private System.Windows.Forms.TextBox DureeCircuitTextBox;
+        private System.Windows.Forms.TextBox PlacesDisponiblesCircuitTextBox;
+        private System.Windows.Forms.TextBox DateDepartCircuitTextBox;
+        private System.Windows.Forms.TextBox PaysArriveeCircuitTextBox;
+        private System.Windows.Forms.TextBox VilleArriveeCircuitTextBox;
+        private System.Windows.Forms.TextBox PaysDepartCircuitTextBox;
+        private System.Windows.Forms.TextBox VilleDepartCircuitTextBox;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
@@ -718,16 +739,18 @@
         private System.Windows.Forms.Button SupprimerEtape;
         private System.Windows.Forms.Button ModifierEtape;
         private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.TextBox LieuVisiterTextBox;
+        private System.Windows.Forms.TextBox LieuVisiter;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox DescriptifLieuVisiter;
-        private System.Windows.Forms.TextBox PrixLieuVisiter;
-        private System.Windows.Forms.TextBox PaysLieuVisiter;
-        private System.Windows.Forms.TextBox VilleLieuVisiter;
-        private System.Windows.Forms.TextBox NomLieuVisiter;
+        private System.Windows.Forms.TextBox DescriptifLieuVisiterTextBox;
+        private System.Windows.Forms.TextBox PrixLieuVisiterTextBox;
+        private System.Windows.Forms.TextBox PaysLieuVisiterTextBox;
+        private System.Windows.Forms.TextBox VilleLieuVisiterTextBox;
+        private System.Windows.Forms.TextBox NomLieuVisiterTextBox;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox OrdreEtapeTextBox;
     }
 }
