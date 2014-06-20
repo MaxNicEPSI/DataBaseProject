@@ -45,10 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="DataSet1.cs">
       <DependentUpon>DataSet1.xsd</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+=======
+    <Compile Include="Classes\Nico\ArrayList.cs" />
+    <Compile Include="Classes\Nico\Circuit.cs" />
+    <Compile Include="Classes\Nico\Client.cs" />
+    <Compile Include="Classes\Nico\Etape.cs" />
+    <Compile Include="Classes\Nico\LieuAVisiter.cs" />
+    <Compile Include="Classes\Nico\MotDePasse.cs" />
+    <Compile Include="Classes\Nico\Reservation.cs" />
+>>>>>>> feature/nico
     <Compile Include="Form\Max\Connexion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,11 +71,11 @@
     <Compile Include="Form\Nico\FormClient.Designer.cs">
       <DependentUpon>FormClient.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\Nico\Admin.cs">
+    <Compile Include="Form\Nico\ProgrammeCircuitTouristique.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\Nico\Admin.Designer.cs">
-      <DependentUpon>Admin.cs</DependentUpon>
+    <Compile Include="Form\Nico\ProgrammeCircuitTouristique.Designer.cs">
+      <DependentUpon>ProgrammeCircuitTouristique.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\Nico\DataBase.cs" />
     <Compile Include="DataSet1.Designer.cs">
@@ -96,8 +106,13 @@
     <EmbeddedResource Include="Form\Max\Connexion.resx">
       <DependentUpon>Connexion.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Form\Nico\Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Form\Nico\ProgrammeCircuitTouristique.resx">
+      <DependentUpon>ProgrammeCircuitTouristique.cs</DependentUpon>
+>>>>>>> feature/nico
     </EmbeddedResource>
     <EmbeddedResource Include="Form\Nico\FormClient.resx">
       <DependentUpon>FormClient.cs</DependentUpon>

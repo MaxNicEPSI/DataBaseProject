@@ -11,20 +11,22 @@ using System.Windows.Forms;
 
 namespace ProjetBDDIHM
 {
-    public partial class Admin : Form
+    public partial class ProgrameCircuitTouristique : Form
     {
 
         
-        public Admin()
+        public ProgrameCircuitTouristique(string nom, string prenom,string mdp, string type)
         {
             InitializeComponent();
             buttonClient.BackColor = System.Drawing.Color.FromArgb(255, 166, 80);
+            labelId.Text="Id : "+prenom + " " + nom;
+            labelCompte.Text = "Compte : " + type;
             
         }
 
         private void label_Click_Deconnexion(object sender, EventArgs e)
         {
-            MessageBox.Show("Clique");
+            MessageBox.Show("TO DO : Fermer le fils et réappeler le parent (Fenêtre authentification)");
         }
 
         private void label3_MouseLeave(object sender, EventArgs e)
@@ -54,6 +56,17 @@ namespace ProjetBDDIHM
         }
 
 
+
+
+
+        private void Admin_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Voulez vous quitter l'application ?", "Quitter l'application", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit(); // kill l'application
+            }
+        }
 
         
     }
