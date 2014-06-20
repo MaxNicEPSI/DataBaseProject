@@ -1,6 +1,6 @@
 ﻿namespace ProjetBDDIHM
 {
-    partial class FenetreConnexion
+    partial class Connexion
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
