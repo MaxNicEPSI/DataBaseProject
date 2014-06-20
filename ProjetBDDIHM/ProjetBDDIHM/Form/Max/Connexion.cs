@@ -16,11 +16,15 @@ namespace ProjetBDDIHM
         private List<MotDePasse> listeMdp;
         private string motDePasse;
         private string pseudo;
+        private string type;
+        private string prenom;
+        private string nom;
         public Connexion()
         {
             InitializeComponent();
             MotDePasse.ChargeUtilisateur();
             listeMdp = MotDePasse.getListUtilisateur();
+            TextBoxMdp.PasswordChar = '*';
         }
 
         private void BoutonInscription_Click(object sender, EventArgs e)
@@ -33,14 +37,17 @@ namespace ProjetBDDIHM
         {
             for(int i =0 ; i<listeMdp.Count; i++)
             {
-            				if(IdentifiantConnexion.Text == listeMdp[i].Pseudo){ // si le texte rentré par l'utilisateur dans email et égal a un email de la base de données
+            				if(TextBoxId.Text == listeMdp[i].Pseudo){ // si le texte rentré par l'utilisateur dans email et égal a un email de la base de données
 								motDePasse = listeMdp[i].Mdp; //alors on sauvegarde le mot de passe... 
-								pseudo = listeMdp[i].Pseudo;//... et le pseudo dans des variables
+								pseudo = listeMdp[i].Pseudo;//... et le pseudo dans des variables ...
+                                type = listeMdp[i].Type; 
+                                prenom = listeMdp[i].Prenom;
+                                nom = listeMdp[i].Nom;
 							}
 						}
-							if(MotDePasseConnexion.Text == motDePasse){ //Ensuite, si le mot de passe correspondant à l'email rentré est le meme que celui de la base
+							if(TextBoxMdp.Text == motDePasse){ //Ensuite, si le mot de passe correspondant à l'email rentré est le meme que celui de la base
                                 this.Hide();
-                                Admin form = new Admin();
+                                Admin form = new Admin(nom,prenom,motDePasse,type);
                                 form.ShowDialog();
                                 
 							}

@@ -12,9 +12,9 @@ namespace ProjetBDDIHM.Classes.Nico
 
         public static void ChargeUtilisateur()
         {
-            listeUtilisateur.Add(new MotDePasse("Max", "pass", "Quéro","Maxime"));
-            listeUtilisateur.Add(new MotDePasse("Nico", "pass", "Leclercq","Nicolas"));
-            listeUtilisateur.Add(new MotDePasse("admin", "", "admin","admin"));
+            listeUtilisateur.Add(new MotDePasse("Max", "pass", "Quéro","Maxime","client"));
+            listeUtilisateur.Add(new MotDePasse("Nico", "pass", "Leclercq","Nicolas","client"));
+            listeUtilisateur.Add(new MotDePasse("admin", "", "admin","admin","admin"));
         }
 
         public static List<MotDePasse> getListUtilisateur()
@@ -51,12 +51,20 @@ namespace ProjetBDDIHM.Classes.Nico
             set { prenom = value; }
         }
 
-        public MotDePasse(string pseudo, string motDePasse, string nom, string prenom)
+        private string type;
+
+        public string Type
+        {
+            get { return type; }
+            set { type = value; }
+        }
+        public MotDePasse(string pseudo, string motDePasse, string nom, string prenom, string type)
         {
             this.pseudo = pseudo;
             this.motDePasse = motDePasse;
             this.nom = nom;
             this.prenom = prenom;
+            this.type = type;
         }
 
     }

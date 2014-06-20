@@ -78,20 +78,21 @@
             // labelId
             // 
             this.labelId.AutoSize = true;
-            this.labelId.Location = new System.Drawing.Point(778, 0);
+            this.labelId.BackColor = System.Drawing.SystemColors.Control;
+            this.labelId.Location = new System.Drawing.Point(772, 0);
             this.labelId.Name = "labelId";
-            this.labelId.Size = new System.Drawing.Size(106, 13);
+            this.labelId.Size = new System.Drawing.Size(22, 13);
             this.labelId.TabIndex = 1;
-            this.labelId.Text = "Id: //Nom Prenom //";
+            this.labelId.Text = "Id: ";
             // 
             // labelCompte
             // 
             this.labelCompte.AutoSize = true;
             this.labelCompte.Location = new System.Drawing.Point(3, 14);
             this.labelCompte.Name = "labelCompte";
-            this.labelCompte.Size = new System.Drawing.Size(78, 13);
+            this.labelCompte.Size = new System.Drawing.Size(49, 13);
             this.labelCompte.TabIndex = 0;
-            this.labelCompte.Text = "Compte: Admin";
+            this.labelCompte.Text = "Compte: ";
             // 
             // panel2
             // 
@@ -169,6 +170,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Admin";
             this.Text = "Admin";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Admin_FormClosed);
             this.Load += new System.EventHandler(this.Admin_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

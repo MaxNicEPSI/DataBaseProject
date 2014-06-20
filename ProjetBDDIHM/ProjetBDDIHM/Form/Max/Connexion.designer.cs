@@ -32,10 +32,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.BoutonInscription = new System.Windows.Forms.Button();
-            this.IdentifiantConnexion = new System.Windows.Forms.TextBox();
+            this.TextBoxId = new System.Windows.Forms.TextBox();
             this.BoutonConnecter = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.MotDePasseConnexion = new System.Windows.Forms.TextBox();
+            this.TextBoxMdp = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,10 +64,10 @@
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.BoutonInscription);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.IdentifiantConnexion);
+            this.panel1.Controls.Add(this.TextBoxId);
             this.panel1.Controls.Add(this.BoutonConnecter);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.MotDePasseConnexion);
+            this.panel1.Controls.Add(this.TextBoxMdp);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(25, 32);
             this.panel1.Name = "panel1";
@@ -87,13 +87,13 @@
             this.BoutonInscription.Text = "S\'incrire !?";
             this.BoutonInscription.UseVisualStyleBackColor = false;
             // 
-            // IdentifiantConnexion
+            // TextBoxId
             // 
-            this.IdentifiantConnexion.Location = new System.Drawing.Point(11, 93);
-            this.IdentifiantConnexion.Margin = new System.Windows.Forms.Padding(6);
-            this.IdentifiantConnexion.Name = "IdentifiantConnexion";
-            this.IdentifiantConnexion.Size = new System.Drawing.Size(212, 37);
-            this.IdentifiantConnexion.TabIndex = 1;
+            this.TextBoxId.Location = new System.Drawing.Point(11, 93);
+            this.TextBoxId.Margin = new System.Windows.Forms.Padding(6);
+            this.TextBoxId.Name = "TextBoxId";
+            this.TextBoxId.Size = new System.Drawing.Size(212, 37);
+            this.TextBoxId.TabIndex = 1;
             // 
             // BoutonConnecter
             // 
@@ -116,15 +116,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Identifiant";
             // 
-            // MotDePasseConnexion
+            // TextBoxMdp
             // 
-            this.MotDePasseConnexion.Location = new System.Drawing.Point(11, 171);
-            this.MotDePasseConnexion.Margin = new System.Windows.Forms.Padding(6);
-            this.MotDePasseConnexion.Name = "MotDePasseConnexion";
-            this.MotDePasseConnexion.Size = new System.Drawing.Size(212, 37);
-            this.MotDePasseConnexion.TabIndex = 3;
+            this.TextBoxMdp.Location = new System.Drawing.Point(11, 171);
+            this.TextBoxMdp.Margin = new System.Windows.Forms.Padding(6);
+            this.TextBoxMdp.Name = "TextBoxMdp";
+            this.TextBoxMdp.Size = new System.Drawing.Size(212, 37);
+            this.TextBoxMdp.TabIndex = 3;
             // 
-            // FenetreConnexion
+            // Connexion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -137,7 +137,7 @@
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximumSize = new System.Drawing.Size(300, 400);
             this.MinimumSize = new System.Drawing.Size(300, 400);
-            this.Name = "FenetreConnexion";
+            this.Name = "Connexion";
             this.Text = "Connexion";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -151,10 +151,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button BoutonInscription;
-        private System.Windows.Forms.TextBox IdentifiantConnexion;
+        private System.Windows.Forms.TextBox TextBoxId;
         private System.Windows.Forms.Button BoutonConnecter;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox MotDePasseConnexion;
+        private System.Windows.Forms.TextBox TextBoxMdp;
 
 
 
