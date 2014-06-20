@@ -47,15 +47,21 @@ namespace ProjetBDDIHM
 						}
 							if(TextBoxMdp.Text == motDePasse){ //Ensuite, si le mot de passe correspondant à l'email rentré est le meme que celui de la base
                                 this.Hide();
-                                Admin form = new Admin(nom,prenom,motDePasse,type);
+                                ProgrameCircuitTouristique form = new ProgrameCircuitTouristique(nom,prenom,motDePasse,type);
                                 form.ShowDialog();
                                 
 							}
 							else{ // sinon message d'erreur et on remet les champs a vide
-								/*Toast.makeText(getApplicationContext(), "Mauvais pseudo ou mot de passe", Toast.LENGTH_SHORT).show();
-								mEmail.setText("");
-								mPass.setText("");*/
+                                MessageBox.Show("Erreur de Login ou Mot de Passe !");
+                                TextBoxId.Clear();
+                                TextBoxMdp.Clear();
 							}
+        }
+
+        private void BoutonInscription_Click_1(object sender, EventArgs e)
+        {
+            FenetreInscription inscription = new FenetreInscription();
+            inscription.ShowDialog();
         }
     }
 }

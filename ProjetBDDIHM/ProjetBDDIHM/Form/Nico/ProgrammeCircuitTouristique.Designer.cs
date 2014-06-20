@@ -1,6 +1,6 @@
 ﻿namespace ProjetBDDIHM
 {
-    partial class Admin
+    partial class ProgrameCircuitTouristique
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProgrameCircuitTouristique));
             this.panel1 = new System.Windows.Forms.Panel();
             this.labelDeconnexion = new System.Windows.Forms.Label();
             this.labelId = new System.Windows.Forms.Label();
@@ -111,9 +111,9 @@
             this.buttonClient.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonClient.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonClient.Location = new System.Drawing.Point(117, 203);
+            this.buttonClient.Location = new System.Drawing.Point(419, 123);
             this.buttonClient.Name = "buttonClient";
-            this.buttonClient.Size = new System.Drawing.Size(204, 41);
+            this.buttonClient.Size = new System.Drawing.Size(219, 41);
             this.buttonClient.TabIndex = 0;
             this.buttonClient.Text = "Client/Réservation";
             this.buttonClient.UseVisualStyleBackColor = false;
@@ -125,7 +125,7 @@
             this.buttonCircuit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonCircuit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCircuit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonCircuit.Location = new System.Drawing.Point(688, 203);
+            this.buttonCircuit.Location = new System.Drawing.Point(419, 58);
             this.buttonCircuit.Name = "buttonCircuit";
             this.buttonCircuit.Size = new System.Drawing.Size(219, 41);
             this.buttonCircuit.TabIndex = 2;
@@ -161,14 +161,14 @@
             this.dataSet11.DataSetName = "DataSet1";
             this.dataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // Admin
+            // ProgrameCircuitTouristique
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1053, 580);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "Admin";
+            this.Name = "ProgrameCircuitTouristique";
             this.Text = "Admin";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Admin_FormClosed);
             this.Load += new System.EventHandler(this.Admin_Load);

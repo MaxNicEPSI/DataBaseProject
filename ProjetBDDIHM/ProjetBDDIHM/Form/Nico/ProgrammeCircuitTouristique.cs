@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace ProjetBDDIHM
 {
-    public partial class Admin : Form
+    public partial class ProgrameCircuitTouristique : Form
     {
 
         
-        public Admin(string nom, string prenom,string mdp, string type)
+        public ProgrameCircuitTouristique(string nom, string prenom,string mdp, string type)
         {
             InitializeComponent();
             buttonClient.BackColor = System.Drawing.Color.FromArgb(255, 166, 80);
