@@ -476,7 +476,7 @@
             this.ClientSize = new System.Drawing.Size(979, 510);
             this.Controls.Add(this.groupBox1);
             this.Name = "FormClient";
-            this.Text = "Form1";
+            this.Text = "Gestion Clients/Réservations";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
