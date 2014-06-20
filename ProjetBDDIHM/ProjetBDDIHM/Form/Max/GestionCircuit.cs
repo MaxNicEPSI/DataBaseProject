@@ -68,11 +68,11 @@ namespace ProjetBDDIHM
                 }
             }
             
-                 // Plutot que de rappelr ca faire une fonctione avec des parametres
-                dataEtape = new DataBase();
-                dataEtape.RequestData("Select * from etape where IdentifiantCircuit ="+(CircuitComboBox.SelectedIndex+1)+"order by ordre");
-                EtapeComboBox.Items.Clear();
-                EtapeComboBox.Text = "";
+            // Plutot que de rappelr ca faire une fonctione avec des parametres
+            dataEtape = new DataBase();
+            dataEtape.RequestData("Select * from etape where IdentifiantCircuit ="+(CircuitComboBox.SelectedIndex+1)+"order by ordre");
+            EtapeComboBox.Items.Clear();
+            EtapeComboBox.Text = "";
                 while (dataEtape.dr.Read())
                 {
                     
